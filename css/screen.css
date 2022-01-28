@@ -1,1 +1,341 @@
-/* No CSS */
+/*---------------------------------------/*
+ # SETTINGS
+/*---------------------------------------*/
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.0/font/bootstrap-icons.css");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Hind:wght@300&display=swap");
+/*---------------------------------------/*
+ # GENERIC
+/*---------------------------------------*/
+h2,
+h3 {
+  font-family: "Oswald", sans-serif;
+}
+
+.mb-3 {
+  margin-bottom: 0 !important;
+}
+
+.card-body {
+  width: 18.75rem;
+}
+
+.card1 {
+  background-color: #d84244;
+  color: white;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+p {
+  font-family: "Hind", sans-serif;
+}
+
+li {
+  font-family: "Hind", sans-serif;
+}
+
+em {
+  color: #d84244;
+}
+
+/*---------------------------------------/*
+ # ELEMENTS
+/*---------------------------------------*/
+.bi {
+  color: #222325;
+}
+
+.bi-arrow-down-short {
+  color: white;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: white;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #d84244;
+}
+
+.card {
+  background-color: #464749;
+  color: white;
+}
+
+.btn-primary {
+  background-color: #464749;
+  color: white;
+  border-color: #464749;
+  -webkit-box-shadow: #464749;
+          box-shadow: #464749;
+}
+
+.btn-primary:hover {
+  background-color: white;
+  color: #464749;
+}
+
+.btn-primary:focus {
+  color: #464749;
+}
+
+.btn-outline-secondary {
+  background-color: #464749;
+  color: white;
+}
+
+.carousel-caption {
+  border: solid 2px #d84244;
+  border-radius: 25rem;
+  background-color: #222325;
+  color: white;
+}
+
+.carousel-indicators [data-bs-target] {
+  background-color: #d84244;
+}
+
+.bi-arrow-up-circle {
+  color: #d84244;
+  position: fixed;
+  font-size: 2rem;
+  right: 2rem;
+  bottom: 2rem;
+}
+
+.btn-primary:focus {
+  background-color: #464749;
+  color: white;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  border-color: #464749;
+}
+
+.btn-primary:hover {
+  background-color: #d84244;
+  color: white;
+  border-color: #d84244;
+}
+
+/*---------------------------------------/*
+ # OBJECTS
+/*---------------------------------------*/
+/*---------------------------------------/*
+ # COMPONENTS
+/*---------------------------------------*/
+.c-banner {
+  background-image: url(../img/voebtalstadium.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 15rem;
+  padding-bottom: 25rem;
+  color: white;
+  text-shadow: black 2px 2px 2px;
+  border-bottom: #d84244 solid 2px;
+}
+
+.c-carousel {
+  overflow: hidden;
+}
+
+.card-body1 {
+  margin-bottom: 3rem;
+}
+
+.c-footer {
+  background-color: #222325;
+  color: white;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  border-top: #d84244 0.125rem solid;
+}
+
+.c-footer__copyright {
+  border-top: solid 0.0625rem white;
+  padding-top: 1rem;
+  margin-top: 2rem;
+}
+
+.c-footer__logo {
+  margin-bottom: 2rem;
+}
+
+.c-footer__contact {
+  color: white;
+  text-decoration: none;
+}
+
+.c-footer__contact:hover {
+  color: #d84244;
+}
+
+.c-onderaan {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  background-color: #4647491e;
+  border-top: solid 0.125rem #d84244;
+}
+
+.c-onderaan__shop {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media only screen and (max-width: 580px) {
+  .c-onderaan__shop {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+    padding: 1rem 2rem;
+  }
+}
+
+.c-input__nieuwsbrief {
+  margin: auto;
+}
+
+.c-howest {
+  width: 10.625rem;
+  height: 4.1875rem;
+}
+
+.c-icon {
+  font-size: 4rem;
+  color: #d84244;
+  margin-right: 1.5rem;
+}
+
+.c-map {
+  width: 100%;
+  height: 30rem !important;
+}
+
+.c-header {
+  background-color: #222325;
+  padding: 1rem;
+  border-bottom: #d84244 solid 2px;
+}
+
+.c-accordeon {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.c-film {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  background-color: #222325;
+  color: white;
+  text-shadow: 2px 2px 4px #d84244;
+}
+
+.c-film__verken {
+  border-left: 5px solid #d84244;
+  border-bottom: 5px solid #d84244;
+  padding-bottom: 2rem;
+  padding-left: 2rem;
+  padding-top: 2rem;
+  padding-right: 2rem;
+  -webkit-box-shadow: -8px 6px white;
+          box-shadow: -8px 6px white;
+}
+
+.c-overons {
+  background-color: #222325;
+  color: white;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  border-bottom: #d84244 solid 2px;
+  text-shadow: 2px 2px 4px #d84244;
+}
+
+.c-overons__listitem {
+  list-style-type: none;
+  border-bottom: #d84244 dashed 2px;
+  margin-left: -2rem;
+  padding: 0.5rem;
+}
+
+.c-contact {
+  border-bottom: #d84244 solid 2px;
+  color: white;
+  text-shadow: 2px 2px 4px #464749;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  background-image: url(../img/grasveld.jpeg);
+  background-position: inherit;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.c-contact__titel {
+  margin-bottom: 2rem;
+}
+
+.c-contact__socials {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+
+.c-contact__socialsitems {
+  margin: 2rem;
+  color: white;
+}
+
+.c-contact__socialsitems:hover {
+  color: #d84244;
+  -webkit-transition: 1s;
+  transition: 1s;
+  text-shadow: none;
+}
+
+.c-concept {
+  font-size: 1.5rem;
+  margin-top: 2rem;
+}
+
+.c-video {
+  margin: auto;
+}
+
+.c-topics {
+  padding: 4rem 0;
+}
+
+/*---------------------------------------/*
+ # BOOTSTRAP
+/*---------------------------------------*/
+.accordion-flush .accordion-item .accordion-button {
+  color: #d84244;
+  border-bottom: #464749 2px solid;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: white;
+}
+
+.accordion-button:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.accordion-button::after {
+  background-image: url(../img/pijltje.svg);
+}
+
+/*---------------------------------------/*
+ # UTILITIES
+/*---------------------------------------*/
